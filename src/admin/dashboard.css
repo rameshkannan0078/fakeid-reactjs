@@ -1,0 +1,79 @@
+.dbody{
+    height: 900px;
+    width: 100%;
+    border-radius: 0px;
+    background:linear-gradient( to right ,rgb(65, 65, 180) ,rgb(212, 116, 212));
+    border:0px solid rgb(219, 32, 32);
+}
+.dc-box {
+    height:100px;
+    width: 100%;
+    border:0px solid rgb(14, 192, 23);
+    margin-left:0px;
+    border-radius: 0px;
+   
+}
+.dc-box h1{
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.dc-table{
+   
+  background-color:transparent ;
+    border:0px solid rgba(21, 21, 160, 0.534);
+    margin-left: 150px;
+
+}
+
+.dc-table tbody tr{
+    border-bottom: 1px solid rgb(214, 211, 214);
+    width: 800px;
+}
+.dc-table tbody tr:last-of-type{
+    border-bottom: 2px solid  rgba(160, 53, 209, 0.63);
+}
+@media (max-width:600px){
+    .dbody{
+        height: 900px;
+        width: 100%;
+        border-radius: 0px;
+        background:linear-gradient( to right ,rgb(65, 65, 180) ,rgb(212, 116, 212));
+        border:0px solid rgb(219, 32, 32);
+    }
+    .dc-box {
+        height:100px;
+        width: 100%;
+        border:0px solid rgb(14, 192, 23);
+        margin-left:0px;
+        border-radius: 0px;
+       
+    }
+    .dc-box h1{
+        margin-left: 0px;
+        text-align: center;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    .dc-table{
+        width: 372px;
+       font-size: 10px;
+       font-weight: bolder;
+       background-color:rgba(152, 175, 173, 0.616) ;
+        border:0px solid rgba(21, 21, 160, 0.534);
+        margin-left: 15px;
+        border-radius: 0px;
+    
+    }
+    
+    .dc-table tbody tr{
+        border-bottom: 1px solid rgb(214, 211, 214);
+        width: 300px;
+    }
+    .dc-table tbody tr:last-of-type{
+        border-bottom: 2px solid  rgba(160, 53, 209, 0.63);
+    } 
+}

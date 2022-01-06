@@ -1,0 +1,179 @@
+body{
+  background-color: white;
+}
+.form-head{
+  height: 100px;
+  width: 500px;
+  padding: 20px;
+  margin-top: 00px;
+  border:transparent;
+  border-radius: 0px;
+ 
+}
+.form-head h1{
+margin-left: 0px;
+word-spacing: 20px;
+font-size: 66px;
+font-family: georgia;
+font-weight: 550;
+color:rgba(255, 255, 255, 0.644);
+}
+.sidebox{
+  height: 100%;
+  width: 500px;
+  border: 0px solid rgb(20, 20, 20);
+  background-color: blueviolet;
+  border-radius: 0px;
+ 
+}
+.previewimg{
+  height: 400px;
+  width: 500px;
+  border:0px solid black;
+  background-image: url("../images/preview2.gif");
+  background-size: 100% 500px;
+  margin-top: 180px;
+}
+.dashbg{
+  height: 750px;
+  width: 100%;
+ 
+  /*background-image: url("../images/lodbgc.jpg");*/
+  border-radius: 0px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border:transparent;
+}
+.tbody {
+     
+      list-style: none;
+      text-align: center;
+      margin: auto;
+      margin-top:-746px;
+      align-items: center;
+      width: 300px;
+      border-radius: 0px;
+      height:750px;
+      margin-left: 850px;
+      border:0px solid white;
+    }
+    table, th, td {
+      border: transparent;
+      background-color: transparent;
+    }
+  
+  
+  ul{
+    text-align: center;
+    margin: 30px auto 0;
+    align-items: center;
+    border-radius: 2rem;
+   background-color: rgba(151, 49, 211, 0.425);
+   
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    height: auto;
+    transition: 0s;
+    margin-left: auto;
+   
+    
+    border-radius: 50px;
+    list-style-type: none;
+  }
+  /*ul li:hover{
+    transform: scale(1.78);
+    background: transparent;
+  }*/
+  
+  @media only screen and (max-width: 600px){
+    .form-head{
+      height: 100px;
+      width: 500px;
+      padding: 20px;
+      margin-top: 00px;
+      border:transparent;
+      border-radius: 0px;
+     
+    }
+    .form-head h1{
+    margin-left: 0px;
+    word-spacing: 20px;
+    font-size: 66px;
+    font-family: georgia;
+    font-weight: 550;
+    color:rgba(255, 255, 255, 0.644);
+    }
+    .sidebox{
+      height: 70%;
+      width: 500px;
+      border: 0px solid rgb(20, 20, 20);
+      background-color: blueviolet;
+      border-radius: 0px;
+     
+    }
+    .previewimg{
+      height: 350px;
+      width: 500px;
+      border:0px solid black;
+      background-image: url("../images/preview2.gif");
+      background-size: 500px 300px ;
+      background-repeat: no-repeat;
+      margin-top:130px;
+    }
+    .dashbg{
+      height: 750px;
+      width: 100%;
+     
+      /*background-image: url("../images/lodbgc.jpg");*/
+      border-radius: 0px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border:transparent;
+    }
+    .tbody {
+         
+          list-style: none;
+          text-align: center;
+          margin: auto;
+          margin-top:0px;
+          align-items: center;
+          width: 500px;
+          border-radius: 0px;
+          height:750px;
+          margin-left: 0px;
+          border:1px solid rgb(19, 18, 18);
+        }
+        table, th, td {
+          border: transparent;
+        }
+      
+      
+      ul{
+        text-align: center;
+        margin: 30px auto 0;
+        align-items: center;
+        border-radius: 2rem;
+       background-color: rgba(151, 49, 211, 0.425);
+       
+        position: relative;
+        justify-content: center;
+        width: 250px;
+        padding: 5px;
+        box-sizing: border-box;
+        height: auto;
+        transition: 0s;
+        margin-left: auto;
+       
+        
+        border-radius: 50px;
+        list-style-type: none;
+      }
+      ul li:hover{
+        transform: scale(1.40);
+        background: transparent;
+      }
+  }
+ 

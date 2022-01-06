@@ -1,0 +1,172 @@
+
+
+body{
+  background-color: white;
+}
+.bgbody{
+  
+ height: 800px;
+ width: 100%;
+  background-image:url("..//images/lodbgc.jpg") ;
+ background-size: 100% 800px;
+  background-repeat: no-repeat;
+  border-radius:0px ;
+}
+
+
+.admin-box{
+    width: 400px;
+    height:500px ;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    float:right;
+    transform:translate(-50% ,-50%) ;
+    background:white;
+    text-align: center;
+   border-radius: 0px;
+  }
+  /*.admin-undraw{
+    height: 800px;
+    width: 700px;
+    border:2px solid black;
+    border-radius: 0px;
+  }*/
+  .admin-boximg{
+    background-image: url("../images/usersymbol1.jpg");
+    background-size: 100px 110px;
+    margin-left: 110px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-radius: 0px;
+  }
+
+  .admin-box h1{
+    padding-top: 10px;
+    color: rgb(126, 13, 219);
+    text-transform:capitalize;
+    font-weight: 500;
+  }
+  .admin-box input[type = "text"],.admin-box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d85ce9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(15, 15, 15);
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .admin-box input[type = "text"]:focus,.admin-box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #ac4ada;
+  }
+  .admin-box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #9940d4;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(47, 31, 185);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .admin-box input[type = "submit"]:hover{
+    background: #d05be7;
+  }
+  .drawbox{
+    height:500px;
+    width:400px;
+    margin-left:400px ;
+    border-radius: 2px;
+   
+    display: grid;
+    flex-basis: 50%;
+    margin-top:-674px ;
+    background: initial;
+    background-color: rgba(255, 255, 255, 0.342);
+  }
+  .drawbox img{
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+  }
+  @media only screen and (max-width: 600px) {
+
+  
+    .bgbody{
+  
+      height: 500px;
+      width: 400px;
+      border:fixed;
+      background-image:url("..//images/lodbgc.jpg") ;
+      background-size: 560px 300px;
+       background-repeat: no-repeat;
+       border-radius:0px ;
+      
+       
+      
+    }
+    
+    .admin-box{
+      padding-top: 70px;
+      margin-top: 200px;
+      width:330px;
+      border:2px solid rgb(207, 96, 235);
+      margin-left: -60px;
+      height: 500px;
+      border-radius: 50px;
+      box-shadow: 13px 13px 20px rgba(206, 133, 228, 0.863);
+      
+
+    }
+    .admin-boximg{
+      background-image: url("../images/usersymbol1.jpg");
+      background-size: 100px 110px;
+      margin-left: 70px;
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 100px;
+      border: transparent;
+      border-radius: 0px;
+
+    }
+    .admin-box h1{
+      padding-top: 10px;
+      color: rgb(197, 197, 197);
+      text-transform:capitalize;
+      font-size: 50px;
+      font-weight: 500;
+    }
+    .drawbox{
+      height:100px;
+      width:100px;
+      background-color: rgba(255, 255, 255, 0.432);
+      margin-left:400px ;
+      border-radius: 2px;
+      border: transparent;
+      display: grid;
+      flex-basis: 50%;
+      margin-top:-674px ;
+    }
+    .drawbox img{
+      height: 100px;
+      width: 100px;
+      margin-left: 50px;
+      margin-top: 50px;
+  
+    }
+  }

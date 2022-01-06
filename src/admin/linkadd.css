@@ -1,0 +1,129 @@
+ 
+.MainDiv{
+     height: auto;
+      background-color: rgba(136, 76, 192, 0.425);
+    border-radius: 0px;
+}
+.mainbox{
+    height:900px;
+    width: 100%;
+    border:0px solid red;
+    border-radius: 0px;
+   
+}
+.mainbox-img{
+    height:400px;
+    width: 500px;
+    border:0px solid blue;
+    background-image: url("../images/updateme.gif");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    margin-left: 200px;
+    
+}
+.mainbox-h1{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 100px;
+    margin-right: 200px;
+    margin-top: -300px;
+}
+
+.mainform{
+   
+    width: 100%;
+    border:0px solid rgb(19, 18, 18);
+    border-radius: 0px;
+    margin-top: 200px;
+}
+.add-link{
+    width:200px;
+    height: 40px;
+    background-color: rgb(143, 95, 204);
+    border: none;
+}
+.alform{
+   
+    margin-left: 200px;
+    
+}
+.listul{
+    height: 100px;
+    width: 500px;
+    padding: 5px;
+    position: relative;
+    justify-content: center;
+    border-radius: 0px;
+}
+.btn-btn-warning{
+    margin-left: 500px;
+    margin-top: -30px;
+    padding:5px;   
+}
+@media (max-width:600px){
+    .MainDiv{
+     height: auto;
+     width: 990px;
+    background-color: rgba(136, 76, 192, 0.425);
+    border-radius: 0px;
+}
+.mainbox{
+    height:900px;
+    width: 100%;
+    border:0px solid red;
+    border-radius: 0px;
+   
+}
+.mainbox-img{
+    height:400px;
+    width: 500px;
+    border:0px solid blue;
+    background-image: url("../images/updateme.gif");
+    background-repeat: no-repeat;
+    background-size: 450px 400px;
+    margin-left: 0px;
+    
+}
+.mainbox-h1{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    color: cornflowerblue;
+    font-size: 100px;
+    margin-left: 450px;
+    margin-top: -300px;
+}
+
+.mainform{
+   
+    width: 100%;
+    border:0px solid rgb(19, 18, 18);
+    border-radius: 0px;
+    margin-top: 100px;
+}
+.add-link{
+    width:200px;
+    height: 40px;
+    background-color: rgb(143, 95, 204);
+    border: none;
+}
+.alform{
+   
+    margin-left: 200px;
+    
+}
+.listul{
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    
+    border-radius: 0px;
+}
+.btn-btn-warning{
+    margin-left: 300px;
+    margin-top: -30px;
+    padding:5px;   
+}
+}

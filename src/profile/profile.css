@@ -1,0 +1,100 @@
+.profile-page{
+  
+   border-radius: initial;
+   height: 900px;;
+   position: static;
+   overflow: auto; 
+   width: auto;
+  background-image: url("..//images/lodbgc.jpg");
+  background-size: 100% 400px;
+   background-position-x: initial;
+   background-repeat: no-repeat;
+}
+
+
+.box1{
+    
+    background-color: transparent;
+    width: 500px;
+    height: 200px;
+    border:2px solid transparent ;
+    margin: auto;
+    margin-top: 50px;
+   
+ 
+ 
+    
+}
+.box1 button[class=logout]{
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #A23BEC ;
+    background-color: aliceblue;
+}
+button[class=url-button]{
+    margin-top: 50px;
+    background: rgb(226, 123, 204);
+    border: 2px solid rgb(248, 247, 250);
+    width:100px;
+    height:50px;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid#A23BEC ;
+    border-radius: 2rem;
+    padding: 0.4em;
+   
+}
+
+input[type=url]{
+    margin:auto;
+    margin-top: 50px;
+    height:50px;
+    width:300px;
+    text-align: center;
+    border:2px solid green;
+    border-radius:30px;
+}
+.box2{
+   margin: auto;
+    max-width: 1200px;
+    height: 500px;
+    width: 1000px; 
+    background-image:url( "../images/profileimg.svg");
+    background-size: 1000px 400px ;
+    background-repeat: no-repeat;
+    border-radius:0px ;
+    border:transparent ;
+}
+@media only screen and (max-width: 600px) {
+    .box1{
+        width: 100%;
+        height: 300px;
+        border:2px solid transparent;
+        margin: auto;
+        margin-top: 50px;
+        background-size: 100% 900px;
+        background-color: transparent;
+    }
+    input[type=url]{
+        margin:auto;
+        margin-top: 10px;
+        height:50px;
+        width:250px;
+        text-align: center;
+        border:2px solid green;
+        border-radius:30px;
+
+    }
+    .box2{
+         margin-top: 10px;
+         max-width: 1200px;
+         height: 200px;
+         width: 100%; 
+         background-image:url( "../images/profileimg.svg");
+         background-size: 100% 200px ;
+         background-repeat: no-repeat;
+         border-radius:0px ;
+         border:transparent;
+    }
+}
+

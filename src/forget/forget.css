@@ -1,0 +1,150 @@
+/*{
+    padding: 0;
+    border: 1px solid rgb(23, 32, 163);
+    margin-left: 20px;
+   
+  }*/
+.forget-password{
+    margin-right: 0px;
+    margin-top: 20px;
+    background-color: hsla(281, 72%, 55%, 0.603);
+    width:350px;
+    height: 450px;
+    border: 2px solid rgb(147, 68, 167);
+    justify-content: center;
+   box-shadow: 13px 13px 20px rgb(211, 200, 200);
+}
+.forgetbody{
+    width: 100%;
+    height: 730px;
+    background-image: url("../images/forgetpaint1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     border-radius: 0px;
+    border: 1px solid white;
+    border-radius: 0px;
+   
+ 
+} 
+.forgetbox{
+    height: 500px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 10px;
+    border: transparent;
+    
+}
+.fgimg{
+   margin-left: 200px;
+   margin-top: 90px;
+    width:1300px;
+    height: 500px;
+    background-image: url("../images/fgp.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    border: transparent;
+}
+
+.forget-password form p[class=forget-password-text]{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(13, 13, 14);
+}
+.forget-password form img{
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+    margin-left: 70px;
+}
+.forget-password form input{
+    margin-top: 7px;
+    margin-left: 70px;
+    width: 210px;
+}
+form button[class=forget-password-submit]{
+margin: auto;
+margin-left: 130px;
+margin-top: 30px;
+background-color: rgba(111, 61, 230, 0.774);
+width: 100px;
+border-radius: 50px;
+height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    
+    .forgetbody{
+        width: 100%;
+        height: 730px;
+        background-image: url("../images/phonefp1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+         border-radius: 0px;
+        border: 1px solid white;
+        border-radius: 0px;
+       
+    } 
+    .fgimg{
+        margin-left: 0px;
+        margin-top: 0px;
+         width:200px;
+         height: 270px;
+         background-image: url("../images/fgp.png");
+         background-repeat: no-repeat;
+         background-size: 200px 250px;
+         border:1px solid rgb(146, 47, 177);
+         
+     }
+     .forgetbox{
+        height: 600px;
+        width: 300px;
+        margin-left: 5px;
+        margin-top:340px;
+        
+     }
+     .forget-password{
+        margin-left: 30px;
+        margin-top: 10px;
+        background-color: rgba(166, 110, 199, 0.301);
+        width:300px;
+        height: 450px;
+        border: 2px solid rgb(147, 68, 167);
+        justify-content: center;
+       box-shadow: 13px 13px 20px rgb(211, 200, 200);
+    }
+    .forget-password form p[class=forget-password-text]{
+        margin-top: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: bold;
+        font-size: 15px;
+        margin-left: 10px;
+        text-align: center;
+        padding: 20px;
+        color: rgb(13, 13, 14);
+    }
+    .forget-password form img{
+        width: 200px;
+        height: 200px;
+        padding-top: 0px;
+        margin: 0px;
+        margin-left: 50px;
+    }
+    .forget-password form input{
+        margin-top: 7px;
+        margin-left: 50px;
+        width: 210px;
+    }
+    form button[class=forget-password-submit]{
+    margin: auto;
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color: rgba(111, 61, 230, 0.774);
+    width: 100px;
+    border-radius: 50px;
+    height: 30px;
+    }
+}
